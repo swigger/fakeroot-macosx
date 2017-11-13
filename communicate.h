@@ -51,10 +51,10 @@
 
 #ifdef __APPLE__
 # include <AvailabilityMacros.h>
-# ifndef MAC_OS_X_VERSION_10_5 1050
+# ifndef MAC_OS_X_VERSION_10_5 /*1050*/
 #  define MAC_OS_X_VERSION_10_5 1050
 # endif
-# ifndef MAC_OS_X_VERSION_10_6 1060
+# ifndef MAC_OS_X_VERSION_10_6 /*1060*/
 #  define MAC_OS_X_VERSION_10_6 1060
 # endif
 # if MAC_OS_X_VERSION_MIN_REQUIRED >= MAC_OS_X_VERSION_10_5
